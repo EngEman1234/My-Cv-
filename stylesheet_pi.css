@@ -1,0 +1,27 @@
+body{
+background-color: lightgray;
+margin: 20px;
+
+}
+
+h1{
+  color:  #4da6ff;
+  text-align:center;
+}
+
+p{
+font-weight: bold;
+padding: 20px;
+text-align: center;
+}
+
+#section{
+  background-color:white;
+border:2px dashed blue;
+margin: 40px;
+
+}
+
+a::before{
+  content:'\21d2';
+}

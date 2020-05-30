@@ -1,0 +1,31 @@
+$b_color:blue;
+$bg_color1:lightblue;
+$bg_color2:lightgreen;
+
+%main{
+div{
+  border:3px dashed gray;
+  margin:20px;
+  padding:10px;
+  b{
+color:$b_color;
+  }
+  ul{
+    font-style: italic;
+  }
+}
+}
+
+
+.section1{
+@extend %main;
+margin-top: 50px;
+div{
+background-color:$bg_color1;
+}}
+
+.section2{
+@extend %main;
+div{
+background-color:rgba(0, 128, 0, 0.3)
+}}
